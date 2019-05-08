@@ -1,10 +1,10 @@
 {
-    "name" : "BigBlueButton Screenshare Extension",
-    "author": "BigBlueButton",
-    "version" : "0.0.6",
+    "name" : "Trading101 Screenshare Extension",
+    "author": "Trading101",
+    "version" : "0.0.7",
     "manifest_version" : 2,
     "minimum_chrome_version": "34",
-    "description" : "Chrome Extension granting WebRTC screen capturing capabilities to BigBlueButton meetings.",
+    "description" : "Chrome Extension granting WebRTC screen capturing capabilities to Trading101 webinars.",
     "homepage_url": "https://bigbluebutton.org/",
     "background": {
         "scripts": ["background-script.js"],
@@ -12,7 +12,7 @@
     },
     "externally_connectable": {
        "matches": [
-           "*://*.bigbluebutton.org/*"
+           "*://*.trading101.com/*"
          ]
     },
     "icons" : {
